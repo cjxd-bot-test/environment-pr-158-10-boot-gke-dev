@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cb-kubecd
+    provider: github
+    repository: bdd-sbrp-import-1581606936
+  name: cb-kubecd-bdd-sbrp-import-1581606936
+spec:
+  description: Imported application for cb-kubecd/bdd-sbrp-import-1581606936
+  httpCloneURL: https://github.com/cb-kubecd/bdd-sbrp-import-1581606936.git
+  org: cb-kubecd
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: bdd-sbrp-import-1581606936
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cb-kubecd/bdd-sbrp-import-1581606936.git
